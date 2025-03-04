@@ -299,12 +299,9 @@ menu:active{
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.our-team-box-1{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    
-}
+
+
+
 .our_team_list:last-child{
     margin-right: 0;
 }
@@ -390,6 +387,29 @@ menu:active{
     overflow: hidden;
 
 }
+.our-social-icon-container{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+}
+.our-social-icon-item:hover,
+.our-social-icon-item:focus {
+    background-color: #404bbf;
+
+    
+}
+.our-social-icon-item{
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-block: 24px auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 24px;
+}
 .portfolio-list-item:hover .portfolio-list-item-wrap-text{
     transform: translateY(0%);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -460,24 +480,11 @@ menu:active{
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.footer-social-icon-item{
-    background-color: #4D5AE5;
-    border-radius: 50%;
-    display: flex;
-    display: inline-block;
-    justify-content:center;
-    margin-block: 24px auto;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    gap: 24px;
-}
+
 .footer-social-icon-container{
-    display: inline-block;
-    text-align: center;
-    padding: 100px 0;
-    font-weight: 400;
-    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    gap:24px;
 }
 .footer-logo{
     line-height: 1.17;
