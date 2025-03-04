@@ -402,7 +402,7 @@ menu:active{
 .our-social-icon-item:focus {
     background-color: #404bbf;   
 }
-.our-social-icon-container, .our-social-icon-container-list{
+.our-social-icon-container-list{
     width: 40px;
 }
 .our-social-icon-item{
