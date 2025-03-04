@@ -92,13 +92,16 @@ ol, ul  {
 .header_logo_second{
     color: #2e2f42;
 }
-.menu{
-    display: flex;
-    gap: 40px;
+.menu-list{
     position: relative;
     color:#404bbf;
     width: 50px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.menu{
+    display: flex;
+    gap: 40px;
 }
 .menu-list-item{
     padding: 24px 0;
