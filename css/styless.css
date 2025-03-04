@@ -53,9 +53,6 @@ ol, ul  {
     width: 1158px;
     margin: 0 auto;
     flex-direction: column;
-    margin:8px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08)
 }
 /*header*/
 .header{
@@ -76,11 +73,10 @@ ol, ul  {
 }*/
 .menu-nav{
     display: flex;
+    justify-content: center;
     align-items: center;
-    position: relative;
 }
 .header-logo{
-    position: relative;
     font-family: "Raleway",sans-serif;
     font-size:18px;
     font-weight: 700;
@@ -117,11 +113,12 @@ ol, ul  {
 }
 .contact_information{
     font-style: normal;
-    
+
 }
 
 .contact{
     display: flex;
+   
     gap: 40px;
     
 }
@@ -248,7 +245,7 @@ menu:active{
 }
 
 /*OUR TEAM*/
-.our-team-section{
+.our_team-section{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
