@@ -384,15 +384,18 @@ menu:active{
     0px 2px 1px rgba(46,47,66,0.08);
     /*box-shadow: 250ms cubic-bezier(0.4,0,0.2,1);*/
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 40px;
+    height: 40px;
 }
 .portfolio-list-item-wrap{
     position: relative;
     overflow: hidden;
 
 }
-.our-social-icon-container{
+.our-social-icon-container, .our-social-icon-container-list{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:24px;
     width: 40px;
     height: 40px;
@@ -402,7 +405,7 @@ menu:active{
 .our-social-icon-item:focus {
     background-color: #404bbf;   
 }
-.our-social-icon-container, .our-social-icon-container-list{
+.our-social-icon-container .our-social-icon-container-list{
     width: 40px;
 }
 .our-social-icon-item{
