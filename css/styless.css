@@ -91,7 +91,7 @@ ol, ul  {
 .header-logo::after{
     position: relative;
     color: #404bbf;
-    content:"";
+    content:"Web";
     width:100%;
     position: absolute;
     left:0;
