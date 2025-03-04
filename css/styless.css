@@ -88,7 +88,7 @@ ol, ul  {
     color: #4d5ae5;
     margin-right: 76px;   
 }
-.header-logo, .header_logo_second::after{
+.header-logo .header_logo_second::after{
     position: relative;
     color: #404bbf;
     content:"Web";
