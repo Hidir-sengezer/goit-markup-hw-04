@@ -95,7 +95,7 @@ ol, ul  {
 .menu-list{
     position: relative;
     color: #404bbf;
-    width: 50px;
+    width: 100%;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -118,7 +118,6 @@ ol, ul  {
     background-color: #404bbf;
     border-radius: 2px;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 .menu-list{
     display: block;
@@ -296,8 +295,16 @@ menu:active{
     text-align: center;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
+.our-team-box-1{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+}
 .our_team_list:last-child{
     margin-right: 0;
 }
