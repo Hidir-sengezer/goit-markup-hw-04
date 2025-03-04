@@ -399,6 +399,9 @@ menu:active{
 .our-social-icon-item:focus {
     background-color: #404bbf;   
 }
+.our-social-icon-container-list{
+    width:40px;
+}
 .our-social-icon-item{
     background-color: #4D5AE5;
     border-radius: 50%;
@@ -410,6 +413,7 @@ menu:active{
     height: 100%;
     padding: 10px;
     gap: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-item:hover .portfolio-list-item-wrap-text{
     transform: translateY(0%);
@@ -485,6 +489,7 @@ menu:active{
 .footer-social-icon-container{
     display: flex;
     justify-content: center;
+    margin-right: 120px;
     gap:24px;
 }
 .footer-logo{
