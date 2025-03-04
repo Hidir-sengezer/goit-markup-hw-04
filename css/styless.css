@@ -392,7 +392,11 @@ menu:active{
     overflow: hidden;
 
 }
-.our-social-icon-container, .our-social-icon-container-list{
+.our-social-icon-container-list{
+    width: 40px;
+    height: 40px;
+}
+.our-social-icon-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,9 +409,7 @@ menu:active{
 .our-social-icon-item:focus {
     background-color: #404bbf;   
 }
-.our-social-icon-container .our-social-icon-container-list{
-    width: 40px;
-}
+
 .our-social-icon-item{
     background-color: #4D5AE5;
     border-radius: 50%;
