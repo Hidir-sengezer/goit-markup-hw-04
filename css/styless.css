@@ -88,7 +88,7 @@ ol, ul  {
     color: #4d5ae5;
     margin-right: 76px;   
 }
-.header-logo .header_logo_second::after{
+/*.header-logo::after{
     position: relative;
     color: #404bbf;
     content:"Web";
@@ -100,7 +100,7 @@ ol, ul  {
     background-color: #404bbf;
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 .header_logo_second{
     color: #2e2f42;
 }
@@ -110,6 +110,19 @@ ol, ul  {
 }
 .menu-list-item{
     padding: 24px 0;
+}
+menu-list::after{
+    position: relative;
+    color: #404bbf;
+    content:"Web";
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom:-1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-list{
     display: block;
@@ -163,7 +176,7 @@ menu:active{
     margin: auto;
     background-position: center;
     background-size: cover;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .slider_title{
@@ -193,6 +206,7 @@ menu:active{
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .blue_button:hover{
@@ -216,6 +230,7 @@ menu:active{
     align-items: center;
     height: 112px; 
     color: white;
+    margin-bottom: 8px;
 }
 .feature-item-img{
    color:white;
@@ -364,6 +379,7 @@ menu:active{
     box-shadow: 0px 1px 6px rgba(46,47,66,0.08),
     0px 1px 1px rgba(46,47,66,0.16),
     0px 2px 1px rgba(46,47,66,0.08);
+    box-shadow: 250ms cubic-bezier(0.4,0,0.2,1);
 }
 .portfolio-list-item-wrap{
     position: relative;
@@ -375,7 +391,7 @@ menu:active{
 }
  
 .portfolio-list-item-wrap-text{
-    transform: translateY(0%);
+   
     position: absolute;
     font-size: 16px; 
     left:0%;
@@ -388,7 +404,8 @@ menu:active{
     height:100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezeir(0.4,0,0.2,1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .portfolio-box{
     padding: 32px 16px;
