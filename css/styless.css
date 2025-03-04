@@ -523,7 +523,8 @@ menu:active{
     align-items: center;
     justify-content: center;
 }
-.footer-information-team-list, .footer-information-team-list-text:hover,
+.footer-information-team-list, 
+.footer-information-team-list-text:hover,
 .footer-information-team-list-text:focus{
     background-color: #31d0aa;}
 .footer-icons{
