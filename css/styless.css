@@ -302,9 +302,6 @@ menu:active{
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
-
 .our_team_list:last-child{
     margin-right: 0;
 }
@@ -361,12 +358,11 @@ menu:active{
 }*/
 .our-social-icon-container{
     display: flex;
-    display: inline-flex;
+    /*display: inline-flex;*/
     justify-content: center;
     align-items: center;
     gap:24px;
-    width: 40px;
-    height: 40px;
+  
 }
 .icons{fill: #f4f4fd;}
 
