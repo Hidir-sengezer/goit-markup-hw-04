@@ -148,7 +148,7 @@ ol, ul  {
 .contact_information{
     font-style: normal;
     justify-content: center;
-    align-items: flex-start;
+    align-self: center;
     border: 24px;
 }
 
