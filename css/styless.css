@@ -148,8 +148,8 @@ ol, ul  {
 .contact_information{
     font-style: normal;
     justify-content: center;
+    align-items: flex-start;
     border: 24px;
-   
 }
 
 .contact{
